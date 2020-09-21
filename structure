@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+struct employee
+{
+	char name[15];
+	float salary;
+	int age;
+};
+struct employee e1={"soni",25000.00,25};
+struct employee e2;
+printf("enter employee e2 details\n");
+printf("enter e2 name:");
+scanf("%s",&e2.name);
+printf("\n enter e2 salary:");
+scanf("%f",&e2.salary);
+printf("\n enter e2 age:");
+scanf("%d",&e2.age);
+printf("\n details of employee e1:");
+printf("\ne1 name is %s",e1.name);
+printf("\ne1 salary is %f",e1.salary);
+printf("\ne1 age is %d",e1.age);
+printf("\n details of employee e2:");
+printf("\ne2 name is %s",e2.name);
+printf("\ne2 salary is %f",e2.salary);
+printf("\ne2 age is %d",e2.age);
+}
+
